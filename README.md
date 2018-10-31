@@ -1,10 +1,10 @@
 # Microservice client
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the library provides. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+Client for the Vdhicts microservices. For more information, please visit: [https://microservices.vdhicts.nl](https://microservices.vdhicts.nl).
 
 ## Requirements
 
-Provide information about the requirements, like PHP version or certain packages.
+This package requires PHP 7.1+.
 
 ## Installation
 
