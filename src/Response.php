@@ -73,4 +73,19 @@ class Response
     {
         return $this->data;
     }
+
+    /**
+     * Transform the response to an array.
+     *
+     * @return array
+     */
+    public function toArray(): array
+    {
+        return [
+            'success'           => $this->success,
+            'error'             => $this->error,
+            'validation_errors' => $this->validationErrors,
+            'data'              => $this->data,
+        ];
+    }
 }
